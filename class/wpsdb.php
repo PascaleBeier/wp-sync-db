@@ -1,4 +1,7 @@
 <?php
+
+error_reporting(0);
+
 class WPSDB extends WPSDB_Base {
 	protected $fp;
 	protected $absolute_root_file_path;
